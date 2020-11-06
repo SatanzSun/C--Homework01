@@ -17,19 +17,19 @@ namespace Caluclator
             switch (z.Trim())
             {
                 case "+":
-                    Utils.Add(x, y);
+                    Console.WriteLine($"{x} + {y} = {Utils.Add(x, y)}");
                     break;
 
                 case "-":
-                    Utils.Subtract(x, y);
+                    Console.WriteLine($"{x} + {y} = {Utils.Subtract(x, y)}");
                     break;
 
                 case "/":
-                    Utils.Divide(x, y);
+                    Console.WriteLine($"{x} + {y} = {Utils.Divide(x, y)}");
                     break;
 
                 case "*":
-                    Utils.Multiply(x, y);
+                    Console.WriteLine($"{x} + {y} = {Utils.Multiply(x, y)}");
                     break;
 
                 default:
